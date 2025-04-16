@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* 1. Element Selector (h1) */
+h1 {
+    color: #2c3e50; /* Dark blue-gray */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 2. Class Selector (.tagline) */
+.tagline {
+    color: #7f8c8d; /* Gray */
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 3. ID Selector (#my-image) */
+#my-image {
+    border: 5px solid #3498db; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    display: block; /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+/* 4. Class Selector (.intro-section) */
+.intro-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #ecf0f1; /* Light gray background */
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+}
+
+.intro-section h2{
+    color: #9b59b6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center; /* Center the image and text */
+}
+.image-section h2{
+    color: #9b59b6;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 5. Class Selector (.fancy-list) */
+.fancy-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.fancy-list li {
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.fancy-list li:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateX(5px); /* Add a slight horizontal movement on hover*/
+    transition: transform 0.2s ease;  /* Smooth transition for the transform */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #34495e; /* Darker footer background */
+    color: white;
+    font-size: 0.9em;
+    margin-top: 30px;
+    border-top: 2px solid #2c3e50;
+}
